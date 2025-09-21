@@ -127,7 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="Report.cpp" />
+    <ClCompile Include="StringUtils.cpp" />
     <ClCompile Include="testTask.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="FileScanner.h" />
+    <ClInclude Include="HashCalculator.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Report.h" />
+    <ClInclude Include="StringUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="text.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
